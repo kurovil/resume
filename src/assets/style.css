@@ -1,0 +1,379 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(235, 235, 235);
+  padding: 10px 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar a {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: black;
+}
+
+.home {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.lingkaran {
+  height: 25px;
+  width: 25px;
+  background-color: #ee4540;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.foto {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+  padding-bottom: 100px; /* Height of the footer */
+}
+
+.about {
+  margin-left: 50px;
+}
+
+.about p {
+  width: 500px;
+}
+
+.linkk {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  position: relative;
+  animation: mymove 2s infinite;
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+}
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+  from {
+    top: 30px;
+  }
+  to {
+    top: 0px;
+  }
+}
+
+.linkk .linkbulat {
+  font-weight: bold;
+  color: white;
+}
+
+.merah {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #c72c41;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.ijo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #801336;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.kuning {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #510a32;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer1 {
+  position: absolute;
+  bottom: 1;
+  width: 97%;
+  height: 100px; /* Height of the footer */
+}
+
+.ig {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ig a {
+  color: black;
+}
+
+.f4 {
+  padding-bottom: 30px;
+}
+
+/* style resume */
+
+.resumepage {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 100px;
+}
+
+.resume {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 50px;
+  position: relative;
+  animation: mymove 2s infinite;
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+  from {
+    top: 30px;
+  }
+  to {
+    top: 0px;
+  }
+}
+
+.isiresume {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.pekerjaan {
+  width: 400px;
+  margin-left: 30px;
+}
+
+.pekerjaan6 {
+  width: 400px;
+  margin-left: 47px;
+}
+
+hr {
+  margin: 30px 0;
+}
+
+/* Style Contact */
+
+.contactpage {
+  padding: 50px 100px;
+}
+
+.contactbody {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 30px;
+  position: relative;
+  animation: mymove 2s infinite;
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+  from {
+    top: 30px;
+  }
+  to {
+    top: 0px;
+  }
+}
+
+.contact {
+  margin-bottom: 20px;
+}
+
+.inputname,
+.inputsubject,
+.inputmessage {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  align-items: flex-end;
+}
+
+.form,
+.submit {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.form input {
+  width: 250px;
+  height: 50px;
+  padding: 10px 15px;
+  font-size: 14pt;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  background-color: rgb(235, 235, 235);
+  border: 0.1px solid black;
+}
+
+.form textarea {
+  width: 350px;
+  height: 200px;
+  margin-top: 10px;
+  padding: 10px 15px;
+  font-size: 14pt;
+  background-color: rgb(235, 235, 235);
+}
+
+.submit {
+  background-color: #2d142c;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22pt;
+  font-weight: 600;
+  color: white;
+}
+
+.submit a {
+  color: white;
+}
+
+/* Style Projects */
+
+.project {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 100px;
+  margin-top: 50px;
+}
+
+.project h1 {
+  font-size: 30pt;
+  margin-bottom: 100px;
+}
+
+.pr2 {
+  display: flex;
+  flex-direction: column;
+}
+.pr2 p {
+  width: 400px;
+}
+
+.p1 {
+  width: 500px;
+  height: 281px;
+  position: relative;
+  animation: mymove 2s infinite;
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+  from {
+    top: 30px;
+  }
+  to {
+    top: 0px;
+  }
+}
+
+.pr1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 100px;
+}
